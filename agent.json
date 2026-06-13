@@ -1,0 +1,36 @@
+{
+  "name": "pokerhud.ai",
+  "description": "Poker analysis (FLIP \u2014 legal grey zone in many jurisdictions).",
+  "url": "https://pokerhud.ai",
+  "provider": {
+    "organization": "CSOAI LTD (UK Companies House 16939677)",
+    "url": "https://csoai.org"
+  },
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "governance-check",
+      "name": "pokerhud.ai Governance Check",
+      "description": "Verify compliance against pokerhud.ai frameworks."
+    },
+    {
+      "id": "attestation",
+      "name": "Signed Attestation",
+      "description": "Generate HMAC-signed compliance certs for pokerhud.ai."
+    }
+  ],
+  "endpoints": {
+    "catalogue": "https://www.proofof.ai",
+    "standards": "https://csoai.org"
+  }
+}

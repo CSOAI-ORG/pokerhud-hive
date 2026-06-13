@@ -1,0 +1,19 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "pokerhud",
+    "description": "Poker analysis (FLIP \u2014 legal grey zone in many jurisdictions).",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://pokerhud.ai"
+      }
+    ],
+    "capabilities": [
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
