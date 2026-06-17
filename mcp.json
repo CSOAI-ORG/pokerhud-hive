@@ -1,0 +1,14 @@
+{
+  "name": "pokerhud.ai",
+  "title": "Poker HUD — AI Poker Assistant",
+  "description": "Advanced poker HUD and AI opponent modelling for online and live poker strategy improvement.",
+  "cluster": "CONSUMER",
+  "servers": [
+        { "id": "poker-mcp.sov3.meok.ai", "url": "https://poker-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "hud-mcp.sov3.meok.ai", "url": "https://hud-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "strategy-mcp.sov3.meok.ai", "url": "https://strategy-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pokerhud.ai",
+  "title": "Poker HUD — AI Poker Assistant",
+  "description": "Advanced poker HUD and AI opponent modelling for online and live poker strategy improvement.",
+  "cluster": "CONSUMER",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://pokerhud.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.pokerhud.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:pokerhud.ai",
+      "verification_method": "did:meok:pokerhud.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "CONSUMER",
+    "url": "https://pokerhud.ai/"
+  }
+}
